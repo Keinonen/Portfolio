@@ -28,6 +28,10 @@ def SMgeneroi(string):
  
 #print("," * random.randint(2,6))
 
-print(SMgeneroi(input("Setämiehistä: ")))
+syote = "0" 
+while (len(syote) != 0):    #while-loop käyttäjälle, lopetus enterillä/tyhjällä syötteellä
+    syote = input("Setämiehistä: ")
+    print(SMgeneroi(syote))
+    
 
 #print(SMgeneroi("testi"))
